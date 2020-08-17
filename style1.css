@@ -1,0 +1,61 @@
+body {
+    text-align:center;
+    background-image: url(skk.jpg);
+    height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+    font-family: 'Damion', cursive;
+    font-size: 40px;
+  }
+  p{
+    color: gold;
+}
+h3{
+    color:white;
+    font-family: 'Damion', cursive;
+    
+}
+#sec1
+{
+    border: 3px solid white;
+    padding: 0px;
+    border-radius:100px ;
+}
+#sec2
+{
+    border:3px solid white;
+    height: 470px;
+    width: 450px;
+    padding:1px;
+    color: yellow;
+    border-radius: 50px;
+}
+#sec3
+{
+    border-radius: 50px;
+    border:3px solid white;
+    height: 470px;
+    width: 500px;
+    padding:1px;
+    color: yellow;
+
+}
+#foo{
+    width:28%;
+    padding:8px;
+    margin:10%;
+    float:left;
+    
+  }
+  @media only screen and (max-width:500px) {
+	
+   .foo, #foo, .sec3, #sec3, .sec2, #sec2, .sec1, #sec1, .h3, h3, p, .p , .respo{
+     width: 100%;
+     max-height: 100%;
+   }
+   .container {
+       width: 100%;
+       padding: 80px;
+       max-height: 100%;
+   }
+ }

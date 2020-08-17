@@ -1,0 +1,47 @@
+<html>
+    <head>
+
+        <title>Participations :)</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="icon" type="image/gif/jpg/png" href="g.png">
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+    <body>
+        <div class="respo">
+        <p>Participations & Achievements</p>
+        <div id="parr">
+           <center> <ul>
+            <li v-for="g in myskill">
+                {{ g.mine }}
+              </li>
+            </ul></center>
+        </div>
+        <p>Certifications</p>
+        <div id="cer">
+            <ul>
+                <li>HTML, CSS, JS certication course offered by UDEMY<button class="btn"><a href="https://drive.google.com/file/d/1hK_G-7kJQjfi6EkCgtF99iLbxckXTBBs/view?usp=sharing"><b>View Certificate</b></a></button></li>
+                <li>CLOUD COMPUTING (101) certification course offered by COURSERA<button class="btn"><a href="https://drive.google.com/file/d/1hLnMAJMrbH96tdrvJxYHFf6w9Olx8yT3/view?usp=sharing"><b>View Certificate</b></a></button></li>
+                <li>COMPUTER NETWORKING SECURITY certification course offered by UDEMY<button class="btn"><a href="https://drive.google.com/file/d/1hLxhxMCfwnc6-DIFtXlj0KOun7xnfzke/view?usp=sharing"><b>View Certificate</b></a></button></li>
+                <li>ISTQB FOUNDATION LEVEL certification course offered by UDEMY<button class="btn"><a href="https://drive.google.com/file/d/1hUNnOQSMSxqoPsBTQ-NptH-Xcmpi6O_5/view?usp=sharing"><b>View Certificate</b></a></button></li>
+                <li>Career Edge - Knockdown the Lockdown onlinecourse offered by TCS iON<button class="btn"><a href="https://drive.google.com/file/d/1hSFZaS0coXj2yakwyafSZ2oLvW8QAYJS/view?usp=sharing"><b>View Certificate</b></a></button></li>
+                <li>BUSINESS ENGLISH CERTIFICATE EXAM (BEC) and passed by LEVEL 2</li>
+            </ul> 
+        </div>
+        </div>
+                 <script>
+            var k=new Vue({
+                el:'#parr',
+                data: {
+             myskill: [
+                 { mine: 'Attended National Level Symposium at KCG college of Technology in Karapakkam , Chennai and Won 1st Prize in WEB DEVELOPMENT.' },
+                    { mine: 'Attended National Level Symposium at KCG college of Technology in Karapakkam , Chennai and Won 3rd Prize in CODING COMPETITION.' },
+                 { mine: 'Attended National Level Symposium at SRM university,Vadapalani campus and won 2 nd prize in Blind coding competition.' },
+                 { mine:'Attended workshop on "WEB DESIGNING" conducted by NGCS at INDIAN INSTITUTE OF TECHNOLOGY MADRAS'},
+    ]
+  }
+            })
+        </script>
+    </body>
+</html>

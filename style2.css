@@ -1,0 +1,47 @@
+body {
+    text-align:center;
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    
+     font-family: 'Bungee Inline', cursive;
+    font-size: 40px;
+  }
+  p{
+    color: gold;
+}
+#parr
+{
+    font-size: 16px;
+    color: greenyellow;
+
+}
+#cer
+{
+    font-size: 16px;
+    color: orange;
+}
+.btn
+{
+    background-color:green;
+    border: none;
+    color: yellow;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+}
+@media only screen and (max-width:500px) {
+	
+   .p, p, .btn, .parr, #parr, .cer, #cer, .respo {
+     width: 100%;
+     max-height: 100%;
+   }
+   .container {
+       width: 100%;
+       padding: 80px;
+      
+   }
+ }

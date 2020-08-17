@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Skills :)</title>
+        <link rel="stylesheet" href="style1.css">
+        <link rel="icon" type="image/gif/jpg/png" href="g.png">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       <div class="respo">
+        <p>Myself Gokul P, <>Front End Developer<>. I am very passionate about web development and I like to create web based applications and also loves to learn new technologies.</p>
+          <div id="sec1">
+              <h3>{{sk}}</h3>
+        </div>
+        <div id="foo">
+          <div id="sec2">
+            <ul>
+                <li v-for="g in myskill">
+                  {{ g.mine }}
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div id="foo">
+            <div id="sec3">
+                <ul>
+                    <li v-for="gk in myskilll">
+                      {{ gk.mines }}
+                    </li>
+                  </ul>
+            </div>
+        </div>
+       </div>
+          <script>
+            var n=new Vue({
+                el:'#sec1',
+                data:{sk:'Skills'}
+            })
+            var nk=new Vue({
+                el: '#sec2',
+            data: {
+             myskill: [
+                 { mine: 'CPP' },
+                    { mine: 'C' },
+                 { mine: 'HTML/CSS' },
+                 { mine:'JavaScript'},
+                 { mine:'VueJs'},
+                 { mine:'R'},
+    ]
+  } })
+                var nkk=new Vue({
+                el: '#sec3',
+            data: {
+             myskilll: [
+                 { mines: 'Cloud Computing Basics' },
+                    { mines: 'Computer Nertworking Basics' },
+                 { mines: 'Microsoft Azure Essentials' },
+                 { mines:'Visual Studio Code'},
+                 { mines:'Github'},
+    ]
+  }
+            })
+        </script>
+    </body>
+</html>

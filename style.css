@@ -1,0 +1,91 @@
+h1 {
+    animation:glow 15s ease-in-out infinite;
+   }
+  
+  body {
+    background:#0394fc;
+    background-image: url(bgg.jpg);
+    text-align:center;
+  
+
+  }
+  .roi{
+      border-radius: 120px;
+     
+      
+  }
+  h4{
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    color:yellow;}
+  h3
+  {
+      font-size: 50px;
+      font-family: 'Anton', sans-serif;
+      color: orange;
+  }
+  #sec1
+  {
+      padding: 120px;
+  }
+  .button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    cursor: pointer;
+  }
+  .ro{
+      
+
+        
+        float: left;
+        width:10%;
+        
+  }
+  
+  .fo{
+    width:25%;
+    padding:10px;
+    border: 5 px solid black;
+    margin:3%;
+    float:left;
+    background-color: whitesmoke;
+    height:50px;
+  }
+  @media only screen and (max-width:500px) {
+	
+    .fo, .h1, .ro, .button, .h3,h3,h4, .h4, .roi, #sec1, .sec1, .respo, img, .img {
+     width: 100%;
+     max-height: 100%;
+   }
+   .container {
+     width: 100%;
+     padding: 80px;
+     max-height: 100%;
+   }
+  }
+  h1 {
+    display:block;
+    width:70%;
+    padding:50px;
+   padding-left: 0px;
+    font:800 4em 'Concert One', sans-serif;
+    text-transform:uppercase;
+    position:absolute;
+    color:#0a0a0a;
+  }
+  @keyframes glow {
+    0%,100%{ text-shadow:0 0 30px orange; }
+    25%{ text-shadow:0 0 30px red; }
+    50%{ text-shadow:0 0 30px pink; }
+    75%{ text-shadow:0 0 30px mediumseagreen; }
+  }
+ 
+  
+  
