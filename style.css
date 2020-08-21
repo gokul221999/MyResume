@@ -1,14 +1,9 @@
-p {
-    animation:glow 15s ease-in-out infinite;
-   }
-  
-  body {
+ body {
     background:#0394fc;
     text-align:center;
     overflow:hidden;
     background-image: url("bgg.jpg");
     
-
   }
   
   h4{
@@ -21,10 +16,7 @@ p {
       font-family: 'Anton', sans-serif;
       color: orange;
   }
-  .sec1
-  {
-      padding: 120px;
-  }
+  
   .button {
     background-color:black;
     border: 2px solid;
@@ -59,24 +51,5 @@ p {
     
    }
   }
-  p {
-    display:block;
-    width:25%;
-    height: 30%;
-    padding-left: 40px;
-    font-size:60px;
-    font-family: 'Anton', sans-serif;
-    text-transform:uppercase;
-    position:absolute;
-    color:white;
-    
-  }
-  @keyframes glow {
-    0%,100%{ text-shadow:0 0 30px orange; }
-    25%{ text-shadow:0 0 30px red; }
-    50%{ text-shadow:0 0 30px pink; }
-    75%{ text-shadow:0 0 30px mediumseagreen; }
-  }
- 
   
   
