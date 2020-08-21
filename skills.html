@@ -10,11 +10,11 @@
     <body>
        <div class="respo">
         <p>Myself Gokul P, <>Front End Developer<>. I am very passionate about web development and I like to create web based applications and also loves to learn new technologies.</p>
-          <div id="sec1">
+          <div class="sec1">
               <h3>{{sk}}</h3>
         </div>
-        <div id="foo">
-          <div id="sec2">
+        <div class="foo">
+          <div class="sec2">
             <ul>
                 <li v-for="g in myskill">
                   {{ g.mine }}
@@ -22,8 +22,8 @@
               </ul>
           </div>
         </div>
-        <div id="foo">
-            <div id="sec3">
+        <div class="foo">
+            <div class="sec3">
                 <ul>
                     <li v-for="gk in myskilll">
                       {{ gk.mines }}
@@ -34,11 +34,11 @@
        </div>
           <script>
             var n=new Vue({
-                el:'#sec1',
+                el:'.sec1',
                 data:{sk:'Skills'}
             })
             var nk=new Vue({
-                el: '#sec2',
+                el: '.sec2',
             data: {
              myskill: [
                  { mine: 'CPP' },
@@ -50,7 +50,7 @@
     ]
   } })
                 var nkk=new Vue({
-                el: '#sec3',
+                el: '.sec3',
             data: {
              myskilll: [
                  { mines: 'Cloud Computing Basics' },
