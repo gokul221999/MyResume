@@ -6,6 +6,8 @@ h1 {
     background:#0394fc;
     text-align:center;
     overflow:hidden;
+	  background-image: url("bgg.jpg");
+    height:100%;
 
   }
   .roi{
