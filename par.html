@@ -11,7 +11,7 @@
     <body>
         <div class="respo">
         <p>Participations & Achievements</p>
-        <div id="parr">
+        <div class="parr">
            <center> <ul>
             <li v-for="g in myskill">
                 {{ g.mine }}
@@ -19,7 +19,7 @@
             </ul></center>
         </div>
         <p>Certifications</p>
-        <div id="cer">
+        <div class="cer">
             <ul>
                 <li>HTML, CSS, JS certication course offered by UDEMY<button class="btn"><a href="https://drive.google.com/file/d/1hK_G-7kJQjfi6EkCgtF99iLbxckXTBBs/view?usp=sharing"><b>View Certificate</b></a></button></li>
                 <li>CLOUD COMPUTING (101) certification course offered by COURSERA<button class="btn"><a href="https://drive.google.com/file/d/1hLnMAJMrbH96tdrvJxYHFf6w9Olx8yT3/view?usp=sharing"><b>View Certificate</b></a></button></li>
@@ -32,7 +32,7 @@
         </div>
                  <script>
             var k=new Vue({
-                el:'#parr',
+                el:'.parr',
                 data: {
              myskill: [
                  { mine: 'Attended National Level Symposium at KCG college of Technology in Karapakkam , Chennai and Won 1st Prize in WEB DEVELOPMENT.' },
