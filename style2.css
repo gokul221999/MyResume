@@ -10,13 +10,13 @@ body {
   p{
     color: gold;
 }
-#parr
+.parr
 {
     font-size: 16px;
     color: greenyellow;
 
 }
-#cer
+.cer
 {
     font-size: 16px;
     color: orange;
@@ -35,9 +35,9 @@ body {
 }
 @media only screen and (max-width:500px) {
 	
-   .p, p, .btn, .parr, #parr, .cer, #cer, .respo {
+   .p, p, .btn, .parr,  .cer,  .respo {
      width: 100%;
-     max-height: 100%;
+    
    }
    .container {
        width: 100%;
