@@ -4,9 +4,8 @@ h1 {
   
   body {
     background:#0394fc;
-    background-image: url(bgg.jpg);
     text-align:center;
-  
+    overflow:hidden;
 
   }
   .roi{
@@ -60,7 +59,7 @@ h1 {
   }
   @media only screen and (max-width:500px) {
 	
-    .fo, .h1, .ro, .button, .h3,h3,h4, .h4, .roi, .sec1, .respo, img, .img {
+    .fo, h1, .ro, .button, .h3,h3,h4, .h4, .roi, .sec1, .respo, img, .img {
      width: 100%;
     
    }
@@ -74,8 +73,7 @@ h1 {
     display:block;
     width:25%;
     height: 30%;
-    
-   padding-left: 0px;
+    padding-left: 470px;
     font:800 4em 'Concert One', sans-serif;
     text-transform:uppercase;
     position:absolute;
