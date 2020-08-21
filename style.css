@@ -63,12 +63,13 @@ p {
     display:block;
     width:25%;
     height: 30%;
-    padding-left: 470px;
-    font-size:50px;
+    padding-left: 40px;
+    font-size:60px;
     font-family: 'Anton', sans-serif;
     text-transform:uppercase;
     position:absolute;
     color:white;
+    
   }
   @keyframes glow {
     0%,100%{ text-shadow:0 0 30px orange; }
